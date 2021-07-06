@@ -1,0 +1,11 @@
+(def aLong 100)
+(def aDouble 100.25)
+(def aString "heloo")
+(def abool true)
+
+(format "this is a sting %s"  abool)
+(format "this is a sting %s"  aString)
+(format "Add n spaces %7d"  aLong)
+(format "x digits with leading zeros  %05d"  aLong)
+(format "this is a sting %s"  aDouble)
+(format "set n decimal places  %.3f"  aDouble)
