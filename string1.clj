@@ -1,0 +1,6 @@
+(def s "The Cat in the Hat")
+(clojure.string/trim s)
+(clojure.string/triml s)
+(clojure.string/trimr s)
+(println s)
+(println (clojure.string/trim-newline s))
