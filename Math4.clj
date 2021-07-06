@@ -1,0 +1,5 @@
+(println "add collection  :" (reduce + [1 2 3]))
+(println "add collection  :" (reduce - [1 2 3]))
+(println (format "pi :%.3f" (Math/PI)))
+(println "in" (Math/log 2.71802000))
+(println "log10 :" (Math/log10 100))
