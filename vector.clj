@@ -1,0 +1,5 @@
+(vector 1 "cat")
+(get (vector 3 2) 1)
+(conj (vector 1 2) 3)
+(pop (vector 3 2 1)  )
+(subvec (vector 3 2 1 4 4 5 1)0 5)
