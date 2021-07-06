@@ -1,0 +1,5 @@
+(def s "The Cat in the Hat   ")
+(clojure.string/blank?   s)
+(clojure.string/includes?    s "in")
+(clojure.string/index-of   s "the")
+(clojure.string/join "" ["cat" 1 "Hat"]  )
